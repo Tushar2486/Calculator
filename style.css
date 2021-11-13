@@ -1,0 +1,68 @@
+.container {
+text-align: center;
+margin-top: 23px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+h1{
+    font-size: 50px;
+}
+table {
+    margin: auto;
+}
+
+input {
+    height: 50px;
+    width: 360px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(155, 154, 154);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    border: 2px solid rgb(216, 215, 215);
+    border-radius: 2px;
+    width: 90px;
+    height: 70px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    background: rgba(230, 227, 227, 0.233);
+}
+
+.num {
+    color: black;
+    background-color: #fcfcfc;
+    font-weight: bolder;
+}
+
+.operators {
+    background-color: rgb(247, 200, 47);
+    font-weight: bolder;
+    color: black;
+}
+.operators:hover {
+    background-color: rgb(247, 212, 100);
+}
+
+.calc {
+    display: inline-block;
+    border: 2px solid rgb(194, 193, 193);
+    background-color: rgb(241, 239, 239);
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 4px 4px 2px blue;
+}
